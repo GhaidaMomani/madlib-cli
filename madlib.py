@@ -11,7 +11,7 @@ def read_template(file):
 # call read_file() to read the template_madlib file
 template_file = read_template('assets/template.txt')
 
-# akes in a template string and returns 
+# takes in a template string and returns 
 # a string with language parts removed and a separate list of those language parts.
 def parse_template(pattern, template):
     """F()to run regex pattern over the template and extract all words to array prompts"""
@@ -65,4 +65,4 @@ def write_file(file, contents):
         template = (f.write(contents))
 
 # write the completed story template to the new file
-write_file('madlib_result.txt', handle_IO())
+# write_file('madlib_result.txt', handle_IO())
